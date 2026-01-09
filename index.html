@@ -1,592 +1,162 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Restaurant</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- Favicon -->
-<link href="img/favicon.ico" rel="icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
 
-<!-- Google Web Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-<!-- Icon Font Stylesheet -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Customized Bootstrap Stylesheet -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-    
-<!-- Template Stylesheet -->
-<link rel="stylesheet" href="index.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <!-- navbar & hero -->
-    <div class="container-xxl position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i></h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0 pe-4">
-                    <a href="" class="nav-item nav-link active">Home</a>
-                    <a href="" class="nav-item nav-link">About</a>
-                    <a href="" class="nav-item nav-link">Service</a>
-                    <a href="" class="nav-item nav-link">Menu</a>
-                    <a href="" class="nav-item nav-link">Pages</a>
-                    <a href="" class="nav-item nav-link">Contact</a>
-                  
-                </div>
-                <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
-            </div>
-        </nav>
 
-        <div class="container-xxl py-5 bg-dark hero-header mb-5">
-            <div class="container my-5 py-5">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6 text-center text-lg-start">
-                        <h1 class="display-3 text-white animated sliderInLeft">Enjoy Our <br> Delicious Meals </h1>
-                        <p class="text-white animated slideInLeft mb-4 pb-2">Sample text</p>
-                        <a href="" class="btn btn-primary py-sm-3 px-sm-5 slideInLeft">Book A Table</a>
-                    </div>
-                    <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                        <img src="hero.jpg" width="490px" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- Navbar & Hero Ends-->
-
-<!-- Service Section Start-->
- <div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-3 col-sm-6 wow fedeInup" data-wow-delay="0.1s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                            <h5>Master Chefs</h5>
-                            <p>Sample Text</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                            <h5>Quality Chefs</h5>
-                            <p>Sample Text</p>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                            <h5>Online Order</h5>
-                            <p>Sample Text</p>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                            <h5>24/7 Service</h5>
-                            <p>Sample Text</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
- </div>
-
- <!-- Service Section Ends-->
-
- <!-- About Section Start-->
-
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="row g-3">
-                    <div class="col-6 text-start">
-                        <img class="img-gluid rounded w-100 wow zoomIn" src="about-1.jpg" alt="">
-
-                    </div>
-                    <div class="col-6 text-start">
-                        <img class="img-gluid rounded w-75 wow zoomIn" src="about-2.jpg" style="margin-top: 25%;"alt="">
-                    </div>
-                    <div class="col-6 text-end">
-                        <img class="img-gluid rounded w-75 wow zoomIn" src="about-3.jpg" alt="">
-                    </div>
-                      <div class="col-6 text-end">
-                        <img class="img-gluid rounded w-100 wow zoomIn" src="about-4.jpg" alt="">
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                <h1 class="mb-4">Welcome To <i class="fa fa-utensils text-primary me-2"></i>Our Resturant</h1>
-                <p class="mb-4">Sample Text</p>
-                <p class="mb-4">Sample Text</p>
-                <div class="row g-4 mb-4">
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                            <h1 class="flex-shrink-0 display-5 text-primary mb-0">15</h1>
-                            <div class="ps-4">
-                                <p class="mb-0">Years Of</p>
-                                <h6 class="text-uppercase mb-0">Experience</h6>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center border-start border-5 border-primary px-3"></div>
-                            <h1 class="flex-shrink-0 display-5 text-primary mb-0">50</h1>
-                            <div class="ps-4">
-                                <p class="mb-0">Popular</p>
-                                <h6 class="text-uppercase mb-0">Master Chefs</h6>
-
-                            </div>
-
-                    </div>
-
-                </div>
-               
-            </div>
-             <a href="" class="btn btn-primary py-3 px-5 mt-2">
-                    Read More
-                </a>
-
-        </div>
-    </div>
-</div>
- <!-- About Section Ends-->
-
-<!-- Menu Section Start-->
- <div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInup">
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">
-                Food Menu
-            </h5>
-            <h1 class="mb-5">Most Popular Items</h1>
-        </div>
-        <div class="tab-class text-center wow fadeInup" data-wow-delay="0.1s">
-            <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
-                <li class="nav-item">
-                    <a href="" class="d-flex align-items-center text-start mx-3 pb-3">
-                        <i class="fa fa-hamburger fa-2x text-primary"></i>
-                        <div class="ps-3">
-                            <small class="text-body">Special</small>
-                            <h6 class="mt-n1 mb-0">Lunch</h6>
-                        </div>
-                    </a>
-                </li>
-                 <li class="nav-item">
-                    <a href="" class="d-flex align-items-center text-start mx-3 pb-3">
-                        <i class="fa fa-utensils fa-2x text-primary"></i>
-                        <div class="ps-3">
-                            <small class="text-body">Lovely</small>
-                            <h6 class="mt-n1 mb-0">Dinner</h6>
-                        </div>
-                    </a>
-                </li>
-                 <li class="nav-item">
-                    <a href="" class="d-flex align-items-center text-start mx-3 pb-3">
-                        <i class="fa fa-utensils fa-2x text-primary"></i>
-                        <div class="ps-3">
-                            <small class="text-body">Popular</small>
-                            <h6 class="mt-n1 mb-0">Breakfast</h6>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
-            <div class="teb-content">
-                <div class="tab-pane fade show p-0 active">
-                    <div class="row g-4">
-                        <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-1.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-2.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-3.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-4.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-5.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-6.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-7.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div> <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
-                                <img src="menu-8.jpg" class="flex-shrink-0 img-fluid rounded" alt="">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span class="text-primary">$100</span>
-                                    </h5>
-                                    <small class="fst-italic">
-                                        Sample Text
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
- </div>
-
- <!-- Menu Section Ends-->
-
- <!-- Reservation Section Start-->
-
- <div class="container-xxl py-5 px-0 wow fadeInUp">
-    <div class="row g-0">
-        <div class="col-md-6">
-            <div class="video">
-                <button type="button" class="btn-play" data-bs-toggle="model" data-src="https://www.youtube.com/watch?v=9XYcSb-pAU4" data-bs-target="#videoMoal">
-                    <span></span>
-
-                </button>
-            </div>
-        </div>
-        <div class="col-md-6 bg-dark align-items-center">
-            <div class="p-5">
-                <h5 class="section-title ff-secondary text-start text-primary fw-normal">
-                    Reservation
-
-                </h5>
-                <h1 class="text-white mb-4">
-                    Book A Table Online
-                </h1>
-                <form action="">
-                    <div class="row g-3">
-                        <div class="col-mb-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="">
-                                <label for="name">Your Name</label>
-                            </div>
-                        </div>
-                         <div class="col-mb-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="email" placeholder="">
-                                <label for="name">Your Email</label>
-                            </div>
-                        </div>
-                         <div class="col-mb-6">
-                            <div class="form-floating date" id="date3">
-                                <input type="text" class="form-control" id="name" placeholder="Date & Time" data-target="#date3" data-toggle="datetimpicker" itemid="datetime">
-                                <label for="name">Date & Time</label>
-                            </div>
-                        </div>
-                         <div class="col-mb-6">
-                            <div class="form-floating">
-                                <select class="form-select" id="select1">
-                                    <option value="1">People 1</option>
-                                    <option value="2">People 2</option>
-                                    <option value="3">People 3</option>
-                                </select>
-                                <label for="select1">No Of People</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floting">
-                                <textarea class="form-control" id="message" placeholder="Special Request" style="height: 100px;">
-                                   
-                                </textarea>
-                                 <label for="message">Special Request</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                        </div>
-                    </div>
-                    
-                </form>
-            </div>
-
-        </div>
-    </div>
-
- </div>
-
-<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-dialog">
-        <div class="modal-content rounded-0">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="" class="embed-responsive-item" id="video" allowfullscreen="always" allow="autoplay"></iframe>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</div>
-</div>
-
- <!-- Reservation Section End-->
-
-<!-- Team Section Start-->
- <div class="container-xxl pt-5 pb-3">
-    <div class="container">
-        <div class="text-center wow fadeInup">
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">
-                Team Members
-
-            </h5>
-            <h1 class="mb-5">Our Master Chefs</h1>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 wow fadeInup">
-                <div class="team-item text-center rounded overflow-hidden">
-                    <div class="rounded-circle overflow-hidden m-4">
-                        <img class="img-fluid" src="team-1.jpg" alt="">
-                    </div>
-                    <h5 class="mb-0">Full Name</h5>
-                    <small>Designation</small>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp">
-                <div class="team-item text-center rounded overflow-hidden">
-                    <div class="rounded-circle overflow-hidden m-4">
-                        <img class="img-fluid" src="team-2.jpg" alt="">
-                    </div>
-                    <h5 class="mb-0">Full Name</h5>
-                    <small>Designation</small>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-
-                    </div>
-
-
-                </div>
-            </div>
-               <div class="col-lg-3 col-md-6 wow fadeInUp">
-                <div class="team-item text-center rounded overflow-hidden">
-                    <div class="rounded-circle overflow-hidden m-4">
-                        <img class="img-fluid" src="team-3.jpg" alt="">
-                    </div>
-                    <h5 class="mb-0">Full Name</h5>
-                    <small>Designation</small>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-
-                    </div>
-
-
-                </div>
-            </div>
-               <div class="col-lg-3 col-md-6 wow fadeInUp">
-                <div class="team-item text-center rounded overflow-hidden">
-                    <div class="rounded-circle overflow-hidden m-4">
-                        <img class="img-fluid" src="team-4.jpg" alt="">
-                    </div>
-                    <h5 class="mb-0">Full Name</h5>
-                    <small>Designation</small>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
- </div>
- <!-- Team Section End-->
-
- <!-- Footer Section Start-->
-  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeInUp">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                <a href="" class="btn btn-link">About Us</a>
-                <a href="" class="btn btn-link">Contact Us</a>
-                <a href="" class="btn btn-link">Resrvation</a>
-                <a href="" class="btn btn-link">Privacy Policy</a>
-                <a href="" class="btn btn-link">Terms & Conditions</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-
-                <p class="mb-2"><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt"></i>+012 345 654410</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info@example.com</p>
-                <div class="d-flex pt-2">
-                    <a href="" class="btn btn-outline-light btn-social "><i class="fab fa-twitter"></i></a>
-                    <a href="" class="btn btn-outline-light btn-social "><i class="fab fa-facebook-f"></i></a>
-                    <a href="" class="btn btn-outline-light btn-social "><i class="fab fa-youtube"></i></a>
-                    <a href="" class="btn btn-outline-light btn-social "><i class="fab fa-linkedin-in"></i></a>
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                <p>09AM - 09PM</p>
-                <h5 class="text-light fw-normal">Sunday</h5>
-                <p>10AM - 08PM</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                <p>Sample Text</p>
-                <div class="position-relative mx-auto">
-                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text">
-
-                    <button class="btn btn-primary py-2 position-absolute top-0 end-0 me-2">Sign Up</button>
-                </div>
-
-
-                </div>
-
-        </div>
-    </div>
-    <div class="container">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center mb-3 mb-md-0 col-lg-12">
-                    &copy; <a class="border-bottom" href="">Your Site Name, All rights Reserved</a>
-                </div>
-            </div>
-        </div>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-primary fw-bold" href="#">
+      <i class="fa fa-utensils me-2"></i>Restaurant
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </div>
   </div>
- <!-- Footer Section End-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</nav>
+
+<!-- HERO -->
+<header class="hero-header d-flex align-items-center">
+  <div class="container text-white">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold">Enjoy Our Delicious Meals</h1>
+        <p class="lead">Fresh food made with love every day.</p>
+        <a href="#menu" class="btn btn-primary btn-lg">View Menu</a>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="hero.jpg" class="img-fluid rounded" alt="Food">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SERVICES -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-md-3">
+        <div class="service-item p-4">
+          <i class="fa fa-user-tie fa-3x text-primary mb-3"></i>
+          <h5>Master Chefs</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-item p-4">
+          <i class="fa fa-utensils fa-3x text-primary mb-3"></i>
+          <h5>Quality Food</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-item p-4">
+          <i class="fa fa-cart-plus fa-3x text-primary mb-3"></i>
+          <h5>Online Order</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-item p-4">
+          <i class="fa fa-headset fa-3x text-primary mb-3"></i>
+          <h5>24/7 Service</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <img src="about-1.jpg" class="img-fluid rounded" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h5 class="section-title text-primary">About Us</h5>
+        <h2>Welcome to Our Restaurant</h2>
+        <p>We serve fresh and delicious meals prepared by professional chefs.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Popular Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="menu-1.jpg" class="rounded me-3" width="80">
+          <div>
+            <h6>Chicken Burger <span class="text-primary">$10</span></h6>
+            <small>Juicy grilled chicken</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="menu-2.jpg" class="rounded me-3" width="80">
+          <div>
+            <h6>Beef Steak <span class="text-primary">$18</span></h6>
+            <small>Premium beef steak</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Chefs</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-3">
+        <img src="team-1.jpg" class="rounded-circle mb-2" width="120">
+        <h6>John Doe</h6>
+      </div>
+      <div class="col-md-3">
+        <img src="team-2.jpg" class="rounded-circle mb-2" width="120">
+        <h6>Jane Smith</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-dark text-light py-4">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2026 Restaurant. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
